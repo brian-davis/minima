@@ -11,17 +11,27 @@ $color-scheme-dark: false !default;
 // Light mode
 // ----------
 
-$lm-brand-color:           #828282 !default;
-$lm-brand-color-light:     color.adjust($lm-brand-color, $lightness: 40%) !default;
+// $lm-brand-color:           #828282 !default;
+$lm-brand-color:           steelblue !default;
+// $lm-brand-color-light:     color.adjust($lm-brand-color, $lightness: 40%) !default;
+$lm-brand-color-light:     color.adjust($lm-brand-color, $lightness: 20%) !default;
 $lm-brand-color-dark:      color.adjust($lm-brand-color, $lightness: -25%) !default;
 
 $lm-site-title-color:      $lm-brand-color-dark !default;
 
 $lm-text-color:            #111111 !default;
 $lm-background-color:      #fdfdfd !default;
-$lm-code-background-color: #eeeeff !default;
 
-$lm-link-base-color:       #2a7ae2 !default;
+// $lm-code-background-color: #eeeeff !default;
+// $lm-code-background-color: aliceblue !default;
+$lm-code-background-color: color.adjust(
+  $lm-brand-color,
+  $lightness: 48%
+) !default;
+
+// $lm-link-base-color:       #2a7ae2 !default;
+$lm-link-base-color: crimson;
+
 $lm-link-visited-color:    color.adjust($lm-link-base-color, $lightness: -15%) !default;
 $lm-link-hover-color:      $lm-text-color !default;
 
