@@ -16,6 +16,7 @@ $lm-brand-color:           steelblue !default;
 // $lm-brand-color-light:     color.adjust($lm-brand-color, $lightness: 40%) !default;
 $lm-brand-color-light:     color.adjust($lm-brand-color, $lightness: 20%) !default;
 $lm-brand-color-dark:      color.adjust($lm-brand-color, $lightness: -25%) !default;
+$lm-brand-color-more-light: color.adjust($lm-brand-color, $lightness: 45%);
 
 $lm-site-title-color:      $lm-brand-color-dark !default;
 

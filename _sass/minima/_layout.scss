@@ -4,6 +4,8 @@
 .site-header {
   border-top: 5px solid $lm-brand-color;
   border-bottom: 3px solid $border-color-02;
+  background-color: $lm-brand-color-more-light;
+
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
 
